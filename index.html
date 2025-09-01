@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta charset="UTF-8">
+<title>在线Google Hacking小工具</title>
+<link rel="shortcut icon" href="favicon.ico" />
+<script type="text/javascript" src="comonjs/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="comonjs/modernizr-2.6.2.min.js"></script>
+<script type="text/javascript" src="js/starbg.js"></script>
+<script type="text/javascript" src="js/googlehack.js"></script>
+<link type="text/css" rel="stylesheet" href="css/styles.css" />
+
+</head>
+<body>
+
+<canvas id="fullstarbg">您的浏览器不支持canvas标签</canvas>
+
+<div class="content">
+ 	<center><img src="google.png" alt="google"></center>
+ 		<div class="input_wrap_box box_S">
+	 		<input id="sercHead" name="sercHead" type="text" class="box_S" value="" placeholder="example.com" onclick="">
+ 		</div>
+</div>
+
+<div class="options">
+  <ol>
+    <li><a href="#" onclick="do_google_search(1)" style="font-family:verdana;font-size:20px;color:#1f1f1f;text-decoration:none">目录遍历漏洞</a></li>
+    <li><a href="#" onclick="do_google_search(2)" style="font-family:verdana;font-size:20px;color:#b30b00;text-decoration:none">查找可能存在的注入点漏洞-Pro版</a></li>
+    <li><a href="#" onclick="do_google_search(3)" style="font-family:verdana;font-size:20px;color:#1f1f1f;text-decoration:none">查找文件上传漏洞</a></li>
+    <li><a href="#" onclick="do_google_search(4)" style="font-family:verdana;font-size:20px;color:#1f1f1f;text-decoration:none">登录页面</a></li>
+    <li><a href="#" onclick="do_google_search(5)" style="font-family:verdana;font-size:20px;color:#1f1f1f;text-decoration:none">可能存在的用户敏感信息泄露(侧重用户)</a></li>
+    <li><a href="#" onclick="do_google_search(6)" style="font-family:verdana;font-size:20px;color:#1f1f1f;text-decoration:none">可能存在的敏感信息泄露(侧重网站)</a></li>
+    <li><a href="#" onclick="do_google_search(7)" style="font-family:verdana;font-size:20px;color:#1f1f1f;text-decoration:none">常见报错页面泄露【持续优化更新↓】</a></li>
+    <li><a href="#" onclick="do_google_search(8)" style="font-family:verdana;font-size:20px;color:#1f1f1f;text-decoration:none">查找数据库、备份、配置等文件【杂↓】</a></li>
+    <li><a href="#" onclick="do_google_search(9)" style="font-family:verdana;font-size:20px;color:#1f1f1f;text-decoration:none">身份信息泄露EDU</a></li>
+    <li><a href="#" onclick="do_google_search(10)" style="font-family:verdana;font-size:20px;color:#1f1f1f;text-decoration:none">身份证号泄露</a></li>
+    <li><a href="#" onclick="do_google_search(11)" style="font-family:verdana;font-size:20px;color:#1f1f1f;text-decoration:none">txt文件泄露</a></li>
+    <li><a href="#" onclick="do_google_search(12)" style="font-family:verdana;font-size:20px;color:#1f1f1f;text-decoration:none">表格文件泄露(xlsx、xls、csv)</a></li>
+    <li><a href="#" onclick="do_google_search(13)" style="font-family:verdana;font-size:20px;color:#1f1f1f;text-decoration:none">文档文件泄露(doc、docx、pdf)</a></li>
+    <li><a href="#" onclick="do_google_search(14)" style="font-family:verdana;font-size:20px;color:#1f1f1f;text-decoration:none">密码文件泄露</a></li>
+    <li><a href="#" onclick="do_google_search(15)" style="font-family:verdana;font-size:20px;color:#b30b00;text-decoration:none">后台管理查找-Pro版【↑】</a></li>
+    <li><a href="#" onclick="do_google_search(16)" style="font-family:verdana;font-size:20px;color:#b30b00;text-decoration:none">常见文件类型泄露 - 一把梭哈</a></li>
+    <li><a href="#" onclick="do_google_search(17)" style="font-family:verdana;font-size:20px;color:#1f1f1f;text-decoration:none">查找管理后台路径</a></li>
+    <li><a href="#" onclick="do_google_search(18)" style="font-family:verdana;font-size:20px;color:#193660;text-decoration:none">大佬分享01【常用的inurl语法】</a></li>
+    <li><a href="#" onclick="do_google_search(18)" style="font-family:verdana;font-size:20px;color:#193660;text-decoration:none">大佬分享01【常用的Index of语法】</a></li>
+  </ol>
+</div>
+
+<div class="footer">
+	<center> Copyright © 2025 CODING BY <a href="https://www.se7ensec.cn" style="font-family:verdana;color:#d82a20;text-decoration:none"> 辉小鱼 </a> GIT HUB: <a href="https://github.com/Bifish0" style="font-family:verdana;color:#d82a20;text-decoration:none"> 在线google Hacking小工具梦幻魔改版 </a></center>
+</div>
+
+</body>
+</html>
